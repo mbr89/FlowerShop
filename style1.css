@@ -1,0 +1,220 @@
+*{box-sizing: border-box;}
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    font-size: 100%;
+    font: inherit;
+    vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+    display: block;
+}
+
+ol, ul {
+    list-style: none;
+}
+blockquote, q {
+    quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+    content: '';
+    content: none;
+}
+table {
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+.cp {
+    color: pink;
+    font-size: 50px !important;
+}
+
+.lp {
+    color: blue;
+    font-size: 50px !important;
+}
+
+/*--------------------------------------------------*/
+body {
+	/*font-family: 'Vollkorn', serif; */
+    font-family: 'Great Vibes', cursive;
+   /* background: linear-gradient(45deg, #222 0%,#fff 100%); */
+  /*  background-image: url("symphony.png"); */
+    font-size: 35px;
+}
+
+.content-body {
+    position: relative;
+    width: 54%;
+    
+} 
+
+.near-body {
+    position: relative;
+    width: 46%;
+    height: 100%;
+    position: fixed;
+    top: 0;
+    right: 0;
+}
+
+
+header {
+	position: relative;
+	width: 100%;
+    height: 440px;
+    top: 0;
+    left: 0;
+}
+.inside-header {
+    position: relative;
+    width: 96%;
+    height: 240px;
+    margin: 0 auto;
+    background-image: url("symphony.png");
+    /* Permalink - use to edit and share this gradi/#ffffff+0,f6f6f6+47,ededed+100;White+3D+%231 */
+background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+background: linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+
+}
+
+.beautiful-flowers h1 {
+    position: absolute;
+    display: block;
+    width: 70%;
+    top: 290px;
+    left: 120px;
+    margin: 0 auto;
+    font-family: 'Great Vibes', cursive;
+    text-transform: capitalize;
+    font-size: 90px;
+    text-align: center;
+
+}
+
+
+
+.flower-shop h2  {
+    position: absolute;
+    width: 100%;
+    font-family: 'Smythe', cursive;
+    text-transform: uppercase;
+    font-size: 55px;
+    text-align: center;
+    padding-top: 100px;
+}
+
+.near-body-content {
+    position: relative;
+    width: 100%;
+    height: 440px;
+}
+
+
+.near-body-inside-1 {
+    background-image: url("A bunch of flowers on the windowsill_flickr_Ronald Saunders_CC BY-SA 2.0.jpg");
+    position: relative;
+    width: 100%;
+    height: 408px;
+
+}    
+    
+.phone-number h3 {
+    position: relative;
+    width: 100%;
+    font-size: 40px;
+    padding-top: 5px;
+    text-align: center;
+
+
+}   
+
+
+.navigation-part {
+    position: relative;
+    width: 100%;
+    height: 50px;
+}
+
+.offer {
+    position: relative;
+    width: 100%;
+    top: 25px;
+    height: 300px;
+    background-image: url("symphony.png");
+    text-align: center;
+    font-weight: 50px;
+    font-family: font-family: 'Smythe', cursive;
+
+}
+
+.offer p {
+    padding: 38px;
+}
+
+
+nav {
+    background: rgb(255,255,255); /* Old browsers */
+background: -moz-linear-gradient(45deg,  rgba(255,255,255,1) 0%, rgba(246,246,246,1) 47%, rgba(237,237,237,1) 100%); /* FF3.6+ */
+background: -webkit-gradient(linear, left bottom, right top, color-stop(0%,rgba(255,255,255,1)), color-stop(47%,rgba(246,246,246,1)), color-stop(100%,rgba(237,237,237,1))); /* Chrome,Safari4+ */
+background: -webkit-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Chrome10+,Safari5.1+ */
+background: -o-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* Opera 11.10+ */
+background: -ms-linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* IE10+ */
+background: linear-gradient(45deg,  rgba(255,255,255,1) 0%,rgba(246,246,246,1) 47%,rgba(237,237,237,1) 100%); /* W3C */
+filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#ededed',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    text-align: center;
+}
+
+#menu {
+    display: inline-block;
+    text-align: center;
+}
+
+#menu li {
+    display: inline-block;
+    font-size: 43px;
+}
+
+#menu li a {
+    padding: 10px 20px;
+    color: #000;
+    border: solid 2px #000;
+    text-decoration: none;
+    background: none;
+}
+
+#menu li a:hover {
+    
+    background-color: rgb(210, 238, 213);
+}
+
+.column {
+    width: 33%;
+    float: left;
+    font-weight: 30px;
+}
+
+
